@@ -24,6 +24,12 @@ beforeEach(function() {
   largeTree = new BinaryTree(root);
 });
 
+//            root
+//        1         2
+//               3     5 
+//             4   6   
+
+
 describe("minDepth", function() {
   it("handles simple trees", function() {
     expect(smallTree.minDepth()).toBe(2);
